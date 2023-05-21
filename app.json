@@ -7,24 +7,38 @@
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#f2ffff"
     },
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
+      "splash": {
+        "image": "./assets/splash.png",
+        "resizeMode": "cover"
+      },
       "supportsTablet": true
     },
     "android": {
+      "splash": {
+        "image": "./assets/splash.png",
+        "backgroundColor": "#f2ffff",
+        "resizeMode": "contain"
+      },
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.nomenclature.sahabathijrah"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8b02315e-0922-4825-ab90-ca56f67c53f3"
+      }
+    },
+    "owner": "nomenclature"
   }
 }
